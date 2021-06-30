@@ -1,0 +1,130 @@
+#header {
+    width: 100%;
+    background-color: #fff;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #4b5458;
+    border-bottom: solid 4px transparent;
+    margin: 0 10px;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--primary);
+    color: var(--primary);
+}
+
+#slider {
+    font-weight: 500;
+
+}
+
+#empresas a.link-empresas {
+    padding: 0 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--light);
+    height: 150px;
+    transition: ease-out all 0.2s;
+}
+
+#empresas a.link-empresas:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+#empresas a.link-empresas img {
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+#empresas a.link-empresas img:hover {
+    filter: none;
+    opacity: 1;
+}
+
+#imgpos {
+    max-height: 600px;
+    max-width: 600px;
+}
+
+#locais .button-group {
+    margin-bottom: 30px;
+}
+
+#locais .button-group button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+    font-size: 17px;
+}
+
+#locais .button-group button + button {
+    margin-left: 20px;
+}
+
+#locais .button-group button.active {
+    color: var(--primary)
+}
+
+#contato .email {
+    border-radius: 25px;
+    background-color: var(--light);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+}
+
+#contato .email img {
+    position: absolute;
+    right: 1000px;
+    top: -60px;
+}
+
+#contato .email form {
+    width: 60%;
+    display: flex;
+}
+
+#contato .email .form-control,
+#contato .email .form-control::placeholder {
+    background-color: none;
+    color:var(--medium);
+}
+
+#contato ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#contato ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 45px;
+}
+
+#contato ul li:first-child {
+    margin-left: 0;
+}
+
+#contato ul li:hover {
+    color:var(--primary-dark)
+}
